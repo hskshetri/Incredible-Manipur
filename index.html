@@ -365,7 +365,7 @@
                 padding: 0 3rem; /* Provide more space for larger buttons on tablets and up */
             }
         }
-        }
+        
         .carousel-container { 
             overflow-x: scroll;
             scroll-behavior: smooth;
@@ -484,7 +484,6 @@
                 <a href="#places" class="nav-text nav-link text-slate-800 hover:text-emerald-600 transition-colors">Places</a>
                 <a href="#culture" class="nav-text nav-link text-slate-800 hover:text-emerald-600 transition-colors">Culture</a>
                 <a href="#festivals" class="nav-text nav-link text-slate-800 hover:text-emerald-600 transition-colors">Festivals</a>
-                <!-- Updated ID link here -->
                 <a href="#dance-music" class="nav-text nav-link text-slate-800 hover:text-emerald-600 transition-colors">Dance & Music</a>
                 <a href="#sports" class="nav-text nav-link text-slate-800 hover:text-emerald-600 transition-colors">Sports</a>
                 <a href="#cuisine" class="nav-text nav-link text-slate-800 hover:text-emerald-600 transition-colors">Cuisines</a>
@@ -506,7 +505,6 @@
             <a href="#places" class="block py-2 px-6 text-sm hover:bg-emerald-50">Places</a>
             <a href="#culture" class="block py-2 px-6 text-sm hover:bg-emerald-50">Culture</a>
             <a href="#festivals" class="block py-2 px-6 text-sm hover:bg-emerald-50">Festivals</a>
-            <!-- Updated ID link here -->
             <a href="#dance-music" class="block py-2 px-6 text-sm hover:bg-emerald-50">Dance & Music</a>
             <a href="#sports" class="block py-2 px-6 text-sm hover:bg-emerald-50">Sports</a>
             <a href="#cuisine" class="block py-2 px-6 text-sm hover:bg-emerald-50">Cuisines</a>
@@ -593,10 +591,10 @@
             </div>
         </section>
         
-         <!-- Festivals Section - FIXED IDs and Aria Labels -->
+         <!-- Festivals Section -->
          <section id="festivals" class="py-16 md:py-20 lg:py-24 bg-slate-100"><div class="container mx-auto px-6 text-center" data-aos="fade-up"><h2 class="section-title">Celebrations of Manipur</h2><div class="carousel-viewport"><div class="carousel-container"><div class="carousel-track"></div></div><button class="carousel-button carousel-button--left" aria-label="Previous festival"><svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7" /></svg></button><button class="carousel-button carousel-button--right" aria-label="Next festival"><svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" /></svg></button></div></div></section>
          
-         <!-- Dance&Music Section - FIXED IDs and Aria Labels -->
+         <!-- Dance&Music Section -->
           <section id="dance-music" class="py-16 md:py-20 lg:py-24 bg-slate-100"><div class="container mx-auto px-6 text-center" data-aos="fade-up"><h2 class="section-title">Rhythms and Cultural Expressions of Manipur</h2><div class="carousel-viewport"><div class="carousel-container"><div class="carousel-track"></div></div><button class="carousel-button carousel-button--left" aria-label="Previous dance"><svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7" /></svg></button><button class="carousel-button carousel-button--right" aria-label="Next dance"><svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" /></svg></button></div></div></section>
          
           <!-- Sports Section -->
@@ -782,7 +780,7 @@
                 festivals: [
                     { imgs: ['images/Yaoshang.jpeg'], title: 'Yaoshang (Holi)', desc: "One of the most popular and vibrant festivals of Manipur, celebrated for five days, usually in March, and is similar to Holi in other parts of India. It begins with the burning of a small hut called ‘yaoshang’, symbolizing the start of the festival. People celebrate by playing with colors, singing, dancing, and organizing cultural programs. A unique feature of this festival is ‘Thabal Chongba’, a traditional moonlight dance performed by boys and girls in groups. Children also take part in ‘nakatheng’ (collecting donations), adding to the festive spirit. Yaoshang beautifully blends religious rituals with fun, sports, and community celebrations." },
                     { imgs: ['images/NingolChakouba.jpeg'], title: 'NingolChakouba', desc: "A special and heartwarming festival of Manipur, this occasion celebrates the bond between daughters (ningols) and their parental families, with particular importance given to married women. On this day, daughters—especially those who are married—are invited to their parental homes and treated with a grand feast by their brothers and family members. It is marked by joy, respect, and the exchange of gifts, strengthening family ties and emotional connections. The celebration highlights love, care, and the importance of maintaining close relationships within Manipuri society." },
-                    { imgs: ['images/Cheiraoba.jpeg'], title: 'Cheiraoba', desc: "A significant traditional festival of Manipur, this occasion marks the Meitei New Year and is celebrated with great enthusiasm and cultural importance. People clean and decorate their homes, prepare special dishes, and offer food to deities as a symbol of prosperity and well-being. A unique custom is climbing nearby hills, which is believed to bring good luck and success in the coming year. The celebration reflects renewal, hope, and the beginning of a fresh cycle in life." },
+                    { imgs: ['images/Cheiraoba.jpeg'], title: 'Chieraoba', desc: "A significant traditional festival of Manipur, this occasion marks the Meitei New Year and is celebrated with great enthusiasm and cultural importance. People clean and decorate their homes, prepare special dishes, and offer food to deities as a symbol of prosperity and well-being. A unique custom is climbing nearby hills, which is believed to bring good luck and success in the coming year. The celebration reflects renewal, hope, and the beginning of a fresh cycle in life." },
                     { imgs: ['images/LaiHaraoba.jpeg'], title: 'Lai Haraoba', desc: "A deeply rooted cultural and spiritual festival of Manipur, also known as Umang Lai Haraoba, this celebration honors ‘Umang Lais’, or sacred forest deities of different regions. Each locality worships its own deity, such as Ibudhou Pakhangba (Kangla), Panthoibi (Thoubal), Ibudhou Khamlangba (Kakching), Ibudhou Thangjing (Moirang), Marjing (Heingang), Koubru (northern hills), Ibudhou Wangbrel (Sugnu), and Nongpok Ningthou (Nongmaiching hills). It features ritual dances by Maibis, traditional music, and symbolic performances, reflecting the deep connection between culture, religion, and nature in Manipuri society." },
                     { imgs: ['images/EidalFitr.jpeg'], title: 'Eid-al-Fitr', desc: "A significant religious festival celebrated by the Muslim community in Manipur, this occasion marks the end of the holy month of Ramadan. It is a time of joy, gratitude, and togetherness, when people gather for special prayers at mosques and thank Allah for strength and blessings. The celebration includes wearing new clothes, sharing festive meals, and giving charity (zakat) to the needy. Families and friends visit each other, exchange greetings, and enjoy traditional dishes, reflecting harmony and unity among communities in Manipur." },
                     { imgs: ['images/ChakaanGaanNgai.jpeg'], title: 'Chakaan Gaan-Ngai', desc: "A major festival celebrated by the Zeliangrong Naga community of Manipur—which includes the Zeme, Liangmai, and Rongmei tribes—this occasion marks the beginning of the new year according to the traditional Naga calendar. It is primarily an agricultural and community festival, observed with rituals, feasting, and traditional dances to honor ancestors and ensure a good harvest. The celebrations include singing folk songs, performing cultural dances, and bringing the community together, reflecting the rich heritage and social unity of the Zeliangrong people in Manipur." },
