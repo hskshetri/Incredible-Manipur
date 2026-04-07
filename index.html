@@ -358,7 +358,13 @@
         /* --- Carousel for Cards (Mobile First) --- */
         .carousel-viewport { 
             position: relative; 
-            padding: 0 2.75rem; /* Provides space for buttons on all screen sizes */
+            padding: 0 1.5rem; /* Reduced padding to push buttons closer to the edge on mobile */
+        }
+        @media (min-width: 768px) {
+            .carousel-viewport {
+                padding: 0 3rem; /* Provide more space for larger buttons on tablets and up */
+            }
+        }
         }
         .carousel-container { 
             overflow-x: scroll;
