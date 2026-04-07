@@ -355,14 +355,15 @@
         .about-text-scroll::-webkit-scrollbar-button {
             display: none;
         }
+        
         /* --- Carousel for Cards (Mobile First) --- */
         .carousel-viewport { 
             position: relative; 
-            padding: 0 1.5rem; /* Reduced padding to push buttons closer to the edge on mobile */
+            padding: 0 1rem; /* Pushed buttons further to the edge on mobile */
         }
         @media (min-width: 768px) {
             .carousel-viewport {
-                padding: 0 3rem; /* Provide more space for larger buttons on tablets and up */
+                padding: 0 2.75rem; /* Original space for larger buttons on tablets and up */
             }
         }
         
@@ -384,8 +385,8 @@
         }
         
         .carousel-item { 
-            flex: 0 0 calc(100% - 0.5rem); /* Allows the card to take up more available width */
-            max-width: 330px; /* Increased from 268px to make cards significantly larger on all devices */
+            flex: 0 0 calc(100% - 1rem); /* Reverted to original sizing */
+            max-width: 268.63px; /* Reverted to original max width */
             padding: 1rem 0.5rem;
         }
 
